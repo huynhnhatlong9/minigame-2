@@ -24,7 +24,6 @@ function findPath(begin, end, arr) {
       return a > b ? 1 : a < b ? -1 : 0;
     });
     var tmp = open.shift();
-    console.log("tmp", tmp.x, tmp.y);
     if (tmp.x == end.x && tmp.y == end.y) {
       return tmp;
     }
@@ -46,9 +45,7 @@ function findPath(begin, end, arr) {
           }
         }
       });
-      console.log("open", open);
     }
-    console.log("-----");
   }
 }
 
@@ -123,22 +120,4 @@ function isValidPoint(point, array) {
   return false;
 }
 
-var result = findPath(
-  {
-    x: 0,
-    y: 6,
-    h: 12,
-    g: 0,
-    path: [],
-  },
-  {
-    x: 6,
-    y: 6,
-    h: 0,
-    g: 12,
-    path: [],
-  },
-  a
-);
 
-console.log(result);

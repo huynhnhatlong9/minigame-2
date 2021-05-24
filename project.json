@@ -39,8 +39,12 @@
         "src/base/Resource.js",
         "src/base/UIFactory.js",
         "src/modules/animation/ScreenDragonbones.js",
+        "src/modules/astar/astar.js",
         "src/modules/localization/ScreenLocalization.js",
         "src/modules/mainmenu/ScreenMenu.js",
+        "src/modules/map/Cell.js",
+        "src/modules/map/Map.js",
+        "src/modules/map/Monster.js",
         "src/modules/testnetwork/network/Network.js",
         "src/modules/testnetwork/network/Packet.js",
         "src/modules/testnetwork/ScreenNetwork.js"
