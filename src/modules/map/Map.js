@@ -2,7 +2,7 @@ const DIMEN = {
     x: 7,
     y: 7
 }
-
+const NUM_OF_BARRIER= 7
 const DIRECTION = {
     UP: 1,
     RIGHT: 2,
@@ -102,7 +102,7 @@ var Board = cc.Class.extend({
     }
     ,
     genBoard: function () {
-        var barrier = this.randomBarrierPosition(7)
+        var barrier = this.randomBarrierPosition(NUM_OF_BARRIER)
         for (let i = 0; i < this.array.length; i++) {
             for (let j = 0; j < this.array[0].length; j++) {
                 if (this.checkArrayContainElement([i, j], barrier)) {
@@ -134,15 +134,13 @@ var MapLayer = cc.Layer.extend({
         var end = {
             x: 6, y: 6, g: 0, h: 0, path: []
         }
-        var path = findPath(begin, end,
-            this.array
-        )
-        var monster = new Monster([0, 0], [DIMEN.x, DIMEN.y], path.path.concat([[path.x, path.y]]),1)
+        var path = findPath(begin, end, this.array)
+        var monster = new Monster([0, 0], [DIMEN.x, DIMEN.y], path.path.concat([[path.x, path.y]]), 1)
         this.addChild(monster.sprite)
 
-        setInterval(()=>{
-            var monster = new Monster([0, 0], [DIMEN.x, DIMEN.y], path.path.concat([[path.x, path.y]]),Math.ceil(Math.random()*3))
+        setInterval(() => {
+            var monster = new Monster([0, 0], [DIMEN.x, DIMEN.y], path.path.concat([[path.x, path.y]]), Math.ceil(Math.random() * 3))
             this.addChild(monster.sprite)
-        },5000)
+        }, 3000)
     }
 })

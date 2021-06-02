@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4d55f2b-12a8-484d-a811-f49e89a3e91c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/res/Barrier/map_decoration_rock_0004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Barrier/map_decoration_tree_0002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Cell/map_cell_0000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Cell/map_house.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Cell/map_monster_gate_player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/monster/monster_golem_run_0000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/map/Cell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/map/Map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/map/Monster.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e4d55f2b-12a8-484d-a811-f49e89a3e91c" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/astar/astar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulator/win32/script/studio/parsers/timelineParser-2.x.js" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/win32/script/studio/parsers/timelineParser-2.x.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/base/Resource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Resource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/mainmenu/ScreenMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mainmenu/ScreenMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/astar/astar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/astar/astar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/map/Cell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/map/Cell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/map/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/map/Monster.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/map/Monster.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -548,6 +537,17 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/HelloJavascript/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -702,8 +702,16 @@
       <workItem from="1621703073412" duration="3595000" />
       <workItem from="1621741367530" duration="3417000" />
       <workItem from="1621757680562" duration="16942000" />
-      <workItem from="1621821594766" duration="1353000" />
+      <workItem from="1621821594766" duration="14449000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1621823288131</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621823288131</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -798,6 +806,10 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

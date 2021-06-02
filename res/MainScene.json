@@ -1,0 +1,170 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "3.10.0.0",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map_background.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 348,
+            "Scale9OriginY": 204,
+            "Scale9Width": 360,
+            "Scale9Height": 212,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 3,
+            "ActionTag": -1858751947,
+            "Size": {
+              "X": 960.0,
+              "Y": 640.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map_house.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 905.0707,
+              "Y": 77.8642
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9428,
+              "Y": 0.1217
+            },
+            "PreSize": {
+              "X": 0.1167,
+              "Y": 0.2094
+            },
+            "LeftMargin": 849.0707,
+            "RightMargin": -1.0707,
+            "TopMargin": 495.1358,
+            "BottomMargin": 10.8642,
+            "Tag": 4,
+            "ActionTag": 1790191948,
+            "Size": {
+              "X": 112.0,
+              "Y": 134.0
+            },
+            "Name": "map_house_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map_monster_gate_player.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5886,
+              "ScaleY": 0.4567
+            },
+            "Position": {
+              "X": 54.404,
+              "Y": 595.2082
+            },
+            "Scale": {
+              "ScaleX": 0.4257,
+              "ScaleY": 0.5807
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0567,
+              "Y": 0.93
+            },
+            "PreSize": {
+              "X": 0.2146,
+              "Y": 0.2406
+            },
+            "LeftMargin": -66.8382,
+            "RightMargin": 820.8382,
+            "TopMargin": -38.8713,
+            "BottomMargin": 524.8713,
+            "Tag": 5,
+            "ActionTag": -663900039,
+            "Size": {
+              "X": 206.0,
+              "Y": 154.0
+            },
+            "Name": "map_monster_gate_player_2",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "map_background.png",
+        "map_house.png",
+        "map_monster_gate_player.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

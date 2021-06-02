@@ -42,15 +42,15 @@ var Cell = cc.Class.extend({
             var barrier = this.getBarrier().sprite
             this.node.addChild(barrier)
         }
-        if(x==0&&y==0){
-            var begin_gate= new BeginGate()
-            begin_gate.sprite.setScaleX((size.width/DIMEN.x)/begin_gate.sprite.getBoundingBox().width)
-            begin_gate.sprite.setScaleY((size.height/DIMEN.y)/begin_gate.sprite.getBoundingBox().height)
-            begin_gate.sprite.flippedX=true
+        if (x == 0 && y == 0) {
+            var begin_gate = new BeginGate()
+            begin_gate.sprite.setScaleX((size.width / DIMEN.x) / begin_gate.sprite.getBoundingBox().width)
+            begin_gate.sprite.setScaleY((size.height / DIMEN.y) / begin_gate.sprite.getBoundingBox().height)
+            begin_gate.sprite.flippedX = true
             this.node.addChild(begin_gate.sprite)
         }
-        if(x==DIMEN.x-1&&y==DIMEN.y-1){
-            var end_gate=new EndGate()
+        if (x == DIMEN.x - 1 && y == DIMEN.y - 1) {
+            var end_gate = new EndGate()
             this.node.addChild(end_gate.sprite)
         }
     }

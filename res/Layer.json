@@ -1,0 +1,77 @@
+{
+  "ID": "67bbce1a-1b2f-4f09-9de5-19650ebf9a6c",
+  "Version": "3.10.0.0",
+  "Name": "Layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 7,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "map_background.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 462.9658,
+              "Y": 320.5164
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4823,
+              "Y": 0.5008
+            },
+            "PreSize": {
+              "X": 1.1,
+              "Y": 0.9688
+            },
+            "LeftMargin": -65.0342,
+            "RightMargin": -30.9658,
+            "TopMargin": 9.4836,
+            "BottomMargin": 10.5164,
+            "Tag": 8,
+            "ActionTag": -1281366026,
+            "Size": {
+              "X": 1056.0,
+              "Y": 620.0
+            },
+            "Name": "map_background_1",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "map_background.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

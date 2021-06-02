@@ -37,6 +37,16 @@ res.golem_right_png= "golem/right/golem.png"
 res.golem_left_plist= "golem/left/golem.plist"
 res.golem_left_png= "golem/left/golem.png"
 
+
+
+//down
+res.ninja_down_plist= "ninja/down/ninja.plist"
+res.ninja_down_png= "ninja/down/ninja.png"
+// right
+res.ninja_right_plist= "ninja/right/ninja.plist"
+res.ninja_right_png= "ninja/right/ninja.png"
+
+
 //gate
 
 res.begin_gate= "Cell/map_monster_gate_player.png"

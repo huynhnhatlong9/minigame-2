@@ -1,0 +1,21 @@
+<Solution>
+  <PropertyGroup Name="studio" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Image Name="map_background.png" />
+        <Image Name="map_background_0000.png" />
+        <Image Name="map_background_0001.png" />
+        <Image Name="map_cell_0000.png" />
+        <Image Name="map_decoration_tree_0001.png" />
+        <Image Name="map_house.png" />
+        <Image Name="map_monster_gate_player.png" />
+        <Image Name="map_river_0000.png" />
+        <Project Name="Layer.csd" Type="Layer" />
+        <PlistInfo Name="Plist.csi" Type="Plist" />
+        <Project Name="Node.csd" Type="Node" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
